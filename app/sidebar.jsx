@@ -10,7 +10,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="flex flex-col justify-center w-36">
+    <div className="flex md:flex-col justify-center md:w-36">
       {...tabs.map((tab) => (
         <Link
           href={tab.src}
